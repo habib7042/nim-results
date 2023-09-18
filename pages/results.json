@@ -1,0 +1,24 @@
+{
+  "results": [
+    {
+      "studentId": "1",
+      "studentName": "John Doe",
+      "subjects": [
+        {
+          "name": "Math",
+          "grade": "A"
+        }
+      ]
+    },
+    {
+      "studentId": "2",
+      "studentName": "Jane Smith",
+      "subjects": [
+        {
+          "name": "Math",
+          "grade": "B"
+        }
+      ]
+    }
+  ]
+}

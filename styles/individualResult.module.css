@@ -1,22 +1,22 @@
-/* styles/home.module.css */
+/* styles/individualResult.module.css */
 
-.home_container {
+.individual-result-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 2rem;
 }
 
-.welcome_text {
+.student-name {
   font-size: 24px;
   margin-bottom: 16px;
 }
 
-.nav_links {
+.subject-list {
   list-style: none;
   padding: 0;
 }
 
-.nav_link {
+.subject-item {
   margin: 8px 0;
 }
