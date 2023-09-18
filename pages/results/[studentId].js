@@ -18,7 +18,7 @@ function StudentResult() {
 
   return (
     <div>
-      <h1>{student.studentName}'s Result</h1>
+      <h1>{student.studentName} &apos;s Result</h1>
       <ul>
         {student.subjects.map((subject, index) => (
           <li key={index}>
