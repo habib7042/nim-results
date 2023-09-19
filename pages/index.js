@@ -1,22 +1,16 @@
 // pages/index.js
 
 import Link from "next/link";
-import styles from "../styles/Home.module.css"; // Import the CSS module
 
-function Home() {
+export default function Home() {
   return (
-    <div className={styles.home_container}>
-      <h1 className={styles.welcome_text}>Welcome to School Results</h1>
+    <div>
+      <h1>Welcome to the Student Database</h1>
       <nav>
-        <ul className={styles.nav_links}>
-          <li className={styles.nav_link}>
-            <Link href="/results">Results</Link>
-          </li>
-          {/* Add more links here */}
-        </ul>
+        <Link href="/add_student">Add Student</Link>
+        {/* Add other navigation links here */}
       </nav>
+      {/* Display a list of students or other content */}
     </div>
   );
 }
-
-export default Home;
